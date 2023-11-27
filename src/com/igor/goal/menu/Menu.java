@@ -1,4 +1,4 @@
-package projeto_final_bloco_01;
+package com.igor.goal.menu;
 
 import java.util.Scanner;
 
@@ -24,9 +24,8 @@ public class Menu {
 		System.out.println("                                                     ");
 		System.out.println("            1 - Criar produto                        ");
 		System.out.println("            2 - Listar todos os produtos            ");
-		System.out.println("            3 - Buscar produto por número            ");
-		System.out.println("            4 - Atualizar Dados do produto           ");
-		System.out.println("            5 - Apagar produto                       ");
+		System.out.println("            3 - Atualizar Dados do produto           ");
+		System.out.println("            4 - Apagar produto                       ");
 		System.out.println("            0 - Sair                                 ");
 		System.out.println("                                                     ");
 		System.out.println("*****************************************************");
