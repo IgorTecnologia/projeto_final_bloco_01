@@ -47,10 +47,14 @@ public abstract class Model  {
 	}
 	
 	public void visualisar() {
-		System.out.println("Número do produto: " + this.id);
-		System.out.println("Tipo do produto: " + this.tipo);
-		System.out.println("Nome do produto: " + this.nome);
-		System.out.println("Preço do produto: " + this.preco);
+		System.out.println("\n***********************************");
+		System.out.println("Dados do produto:");
+		System.out.println("***********************************");
+		System.out.println("\nId do produto: " + this.id);
+		System.out.println("\nTipo do produto: " + this.tipo);
+		System.out.println("\nNome do produto: " + this.nome);
+		System.out.println("\nPreço do produto: " + this.preco);
+		
 	}
 
 }
